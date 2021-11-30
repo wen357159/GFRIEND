@@ -106,7 +106,7 @@ p{
     animation-iteration-count: infinite;
 }
 .cushion1{
-    background-image: url('pic\doll\1.png');
+    background-image: url('../pic/doll/1.png');
     margin-top: -5%;
     margin-left: 2%;
 }
