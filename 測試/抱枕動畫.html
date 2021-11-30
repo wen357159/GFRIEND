@@ -1,0 +1,131 @@
+
+<head>
+    <title>aaa</title>
+    <style>      
+        body{
+            background-color: palegoldenrod;
+        }
+
+        nav{
+            text-align: center;
+        }
+        /* 第一層 */
+        nav ul{
+            position: fixed; 
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 65px;
+            background-color: #333;
+            margin: 0; /* 外邊界 */
+            padding: 0; /* 內邊界 */
+        }
+        nav ul li{
+            position: relative; /* 相對位置 */
+            display: inline-block; /* 不換行(行內元素) */
+            list-style: none;
+            font-size: 30px;
+        }
+        nav ul li a{
+            display: block;
+            padding: 12px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+        }
+
+        #cushion0{
+            width: 220px;
+            height: 220px;
+            background-color: transparent;
+            position: fixed;
+            animation-name: cushion;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        .cushion1{
+            background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/圖片/背景/抱枕1.png');
+            margin-top: -5%;
+            margin-left: 2%;
+        }
+        .cushion2{
+            background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/圖片/背景/抱枕2.png');
+            margin-top: 12%;
+            margin-left: 2%;
+        }
+        .cushion3{
+            background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/圖片/背景/抱枕3.png');
+            margin-top: 27%;
+            margin-left: 2%;
+        }
+        .cushion4{
+            background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/圖片/背景/抱枕4.png');
+            margin-top: -5%;
+            margin-left: 87%;
+        }
+        .cushion5{
+            background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/圖片/背景/抱枕5.png');
+            margin-top: 12%;
+            margin-left: 87%;
+        }
+        .cushion6{
+            background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/圖片/背景/抱枕6.png');
+            margin-top: 27%;
+            margin-left: 87%;
+        }
+        @keyframes cushion{
+            0%{
+                transform: rotate(-30deg);
+            }
+            50%{
+                transform: rotate(30deg);
+            }
+            100%{
+                transform: rotate(-30deg);
+            }
+        }
+
+        .box{
+            width: 70%;
+            border: 1px rgb(0, 0, 0) solid; /* 邊框: 粗細 顏色 樣式 */
+            margin: 10% 15%; /* 外邊界 */
+            padding: 10px; /* 內邊界 */
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">여자친구</a></li>
+            <li><a href="#group">團體介紹</a></li>
+            <li><a href="#person">成員介紹</a></li>
+            <li><a href="#song">音樂作品</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="cushion0" class="cushion1"></div>
+    <div id="cushion0" class="cushion2"></div>
+    <div id="cushion0" class="cushion3"></div>
+    <div id="cushion0" class="cushion4"></div>
+    <div id="cushion0" class="cushion5"></div>
+    <div id="cushion0" class="cushion6"></div> 
+
+    <div class="box">
+        <p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>         
+        </p>
+    </div>
+</body>
