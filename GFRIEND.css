@@ -106,32 +106,32 @@ p{
     animation-iteration-count: infinite;
 }
 .cushion1{
-    background-image: url("C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/pic/doll/1.png");
+    background-image: url('pic/doll/1.png');
     margin-top: -5%;
     margin-left: 2%;
 }
 .cushion2{
-    background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/pic/doll/2.png');
+    background-image: url('pic/doll/2.png');
     margin-top: 12%;
     margin-left: 2%;
 }
 .cushion3{
-    background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/pic/doll/3.png');
+    background-image: url('pic/doll/3.png');
     margin-top: 27%;
     margin-left: 2%;
 }
 .cushion4{
-    background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/pic/doll/4.png');
+    background-image: url('pic/doll/4.png');
     margin-top: -5%;
     margin-left: 1650px;
 }
 .cushion5{
-    background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/pic/doll/5.png');
+    background-image: url('pic/doll/5.png');
     margin-top: 12%;
     margin-left: 1650px;
 }
 .cushion6{
-    background-image: url('C:/Users/aho35/OneDrive/桌面/網頁練習/GFRIEND/pic/doll/6.png');
+    background-image: url('pic/doll/6.png');
     margin-top: 27%;
     margin-left: 1650px;
 }
